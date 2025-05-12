@@ -18,7 +18,7 @@ export default function Footer1() {
                       <Link href={`/`}>
                         <Image
                           className="w-32px text-primary"
-                          alt="Lexend"
+                          alt="Sendbix"
                           src="/assets/images/common/logo-mark.svg"
                           width="34"
                           height="34"
@@ -70,7 +70,7 @@ export default function Footer1() {
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Lexend © {new Date().getFullYear()}, All rights reserved.
+                  Sendbix © {new Date().getFullYear()}, All rights reserved.
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>

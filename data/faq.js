@@ -3,7 +3,7 @@ export const accordionItems = [
     id: 1,
     question: "Do I need to know about how to code?",
     answer:
-      "Yes, you need to have a fair amount of knowledge in dealing with HTML/CSS as well as JavaScript in order to be able to use Lexend.",
+      "Yes, you need to have a fair amount of knowledge in dealing with HTML/CSS as well as JavaScript in order to be able to use Sendbix.",
     controls: "uc-accordion-24",
     expanded: true,
   },
@@ -11,7 +11,7 @@ export const accordionItems = [
     id: 2,
     question: "Can I use it for commercial projects?",
     answer:
-      "Feel free to do so. Lexend does exist to evolve every commercial project. You can also use it to build stunning websites for your own clients (we won’t breathe a word).",
+      "Feel free to do so. Sendbix does exist to evolve every commercial project. You can also use it to build stunning websites for your own clients (we won’t breathe a word).",
     controls: "uc-accordion-26",
     expanded: false,
   },

@@ -6,9 +6,9 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs5 from "@/components/blog/Blogs5";
 export const metadata = {
   title:
-    "Blog 4 Cols || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog 4 Cols || Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function Blog4ColsPage() {
   return (

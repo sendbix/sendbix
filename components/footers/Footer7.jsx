@@ -26,14 +26,14 @@ export default function Footer7() {
                         >
                           <Image
                             className="dark:d-none"
-                            alt="Lexend"
+                            alt="Sendbix"
                             src="/assets/images/common/logo-8-light.svg"
                             width={148}
                             height={39}
                           />
                           <Image
                             className="d-none dark:d-block"
-                            alt="Lexend"
+                            alt="Sendbix"
                             src="/assets/images/common/logo-8-dark.svg"
                             width={148}
                             height={39}
@@ -65,7 +65,7 @@ export default function Footer7() {
                 </div>
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 mt-6 border-top">
-                <p>Lexend © {new Date().getFullYear()}, All rights reserved.</p>
+                <p>Sendbix © {new Date().getFullYear()}, All rights reserved.</p>
                 <ul className="nav-x justify-center gap-2">
                   <li>
                     <a className="duration-150 hover:text-primary" href="#">

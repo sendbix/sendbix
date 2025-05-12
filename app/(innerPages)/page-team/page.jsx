@@ -6,9 +6,9 @@ import Faq from "@/components/innerpages/Faq";
 import Team from "@/components/innerpages/Team";
 export const metadata = {
   title:
-    "Team || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Team || Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function TeamPage() {
   return (

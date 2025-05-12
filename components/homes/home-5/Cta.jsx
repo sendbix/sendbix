@@ -14,7 +14,7 @@ export default function Cta() {
             >
               <h2 className="h4 xl:h3 m-0">Unlock the value of your Data</h2>
               <p className="fs-6 sm:fs-5 xl:fs-4 text-dark dark:text-white text-opacity-70">
-                Lexend is a proven leader in trust intelligence, recognized by
+                Sendbix is a proven leader in trust intelligence, recognized by
                 top analyst firms.
               </p>
               <div className="hstack justify-center gap-1 lg:gap-2 mt-1">

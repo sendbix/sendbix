@@ -107,7 +107,7 @@ export default function Testimonials() {
       </div>
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/lexend_vid.webm"
+        src="/assets/images/media/Sendbix_vid.webm"
         setIsOpen={() => setOpen(false)}
       />
     </>

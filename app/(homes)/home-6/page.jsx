@@ -15,9 +15,9 @@ import VideoComponent from "@/components/homes/home-6/VideoComponent";
 import React from "react";
 export const metadata = {
   title:
-    "Home 6 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 6 || Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage6() {
   return (

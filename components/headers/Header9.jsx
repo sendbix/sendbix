@@ -27,7 +27,7 @@ export default function Header9() {
                   >
                     <Image
                       className="text-primary dark:text-tertiary"
-                      alt="Lexend"
+                      alt="Sendbix"
                       data-uc-svg=""
                       src="/assets/images/common/logo-8-light.svg"
                       width={148}
@@ -84,7 +84,7 @@ export default function Header9() {
                   </div>
                 </div>
                 <a
-                  href="https://themeforest.net/item/lexend-software-saas-startup-nextjs-template/54003483"
+                  href="https://themeforest.net/item/Sendbix-software-saas-startup-nextjs-template/54003483"
                   target="_blank"
                   className="btn btn-md btn-primary dark:bg-tertiary dark:text-primary-700 border-0 px-3 d-none lg:d-inline-flex"
                   data-uc-cursor="lg opaque"

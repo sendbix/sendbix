@@ -14,9 +14,9 @@ import Testimonials from "@/components/homes/home-5/Testimonials";
 import React from "react";
 export const metadata = {
   title:
-    "Home 5 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home 5 || Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function HomePage5() {
   return (

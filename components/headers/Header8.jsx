@@ -80,14 +80,14 @@ export default function Header8() {
                   >
                     <Image
                       className="dark:d-none"
-                      alt="Lexend"
+                      alt="Sendbix"
                       src="/assets/images/common/logo-8-light.svg"
                       width={148}
                       height={39}
                     />
                     <Image
                       className="d-none dark:d-block"
-                      alt="Lexend"
+                      alt="Sendbix"
                       src="/assets/images/common/logo-8-dark.svg"
                       width={148}
                       height={39}
@@ -151,7 +151,7 @@ export default function Header8() {
                             <a href="#">
                               <i className="fs-8 unicon-cloud-lightning" />
                               <span className="border-bottom hover:border-tertiary duration-150">
-                                Join Lexend Early Access
+                                Join Sendbix Early Access
                               </span>
                             </a>
                           </li>
@@ -195,7 +195,7 @@ export default function Header8() {
                                       Workflow quick-start automation guide
                                     </h5>
                                     <p className="fs-7 opacity-60">
-                                      How Lexend can help you automate your work
+                                      How Sendbix can help you automate your work
                                     </p>
                                   </div>
                                   <div className="row child-cols-4 gx-4 col-match justify-between">
