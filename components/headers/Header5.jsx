@@ -55,7 +55,7 @@ export default function Header5() {
                 <div className="uc-logo">
                   <Link className="panel text-none" href={`/`}>
                     <Image
-                      alt="Lexend"
+                      alt="Sendbix"
                       src="/assets/images/common/logo-icon.svg"
                       width="40"
                       height="40"

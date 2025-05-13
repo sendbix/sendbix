@@ -80,14 +80,14 @@ export default function Header6({ staticPosition = false }) {
                     >
                       <Image
                         className="dark:d-none"
-                        alt="Lexend"
+                        alt="Sendbix"
                         width="128"
                         height="34"
                         src="/assets/images/common/logo-new-light.svg"
                       />
                       <Image
                         className="d-none dark:d-block"
-                        alt="Lexend"
+                        alt="Sendbix"
                         width="128"
                         height="34"
                         src="/assets/images/common/logo-new-dark.svg"
@@ -131,7 +131,7 @@ export default function Header6({ staticPosition = false }) {
                                     <div className="panel vstack gap-4">
                                       <div className="vstack gap-narrow">
                                         <h5 className="h5 xl:h4 fw-medium m-0">
-                                          Lexend's AI Automation Platform
+                                          Sendbix's AI Automation Platform
                                         </h5>
                                         <p className="fs-7 text-gray-300">
                                           AI-Powered Automation across 500+ apps
@@ -244,7 +244,7 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-cloud-lightning fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Join Lexend Early Access
+                                    Join Sendbix Early Access
                                   </span>
                                 </a>
                               </li>
@@ -292,7 +292,7 @@ export default function Header6({ staticPosition = false }) {
                                         Workflow quick-start automation guide
                                       </h5>
                                       <p className="fs-7 text-gray-300">
-                                        How Lexend can help you automate your
+                                        How Sendbix can help you automate your
                                         work
                                       </p>
                                     </div>
@@ -436,7 +436,7 @@ export default function Header6({ staticPosition = false }) {
                                 <a href="#">
                                   <i className="fs-8 unicon-cloud-lightning fw-bold"></i>
                                   <span className="border-bottom hover:border-primary duration-150">
-                                    Join Lexend Early Access
+                                    Join Sendbix Early Access
                                   </span>
                                 </a>
                               </li>
@@ -453,7 +453,7 @@ export default function Header6({ staticPosition = false }) {
                     </li>
                     <li>
                       <a
-                        href="https://lexend-nextjs-preview.netlify.app/"
+                        href="https://Sendbix-nextjs-preview.netlify.app/"
                         target="_blank"
                       >
                         <i className="icon unicon-cube fw-bold ltr:me-narrow rtl:ms-narrow text-primary dark:text-tertiary"></i>
@@ -517,7 +517,7 @@ export default function Header6({ staticPosition = false }) {
       </header>{" "}
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/lexend_vid.webm"
+        src="/assets/images/media/Sendbix_vid.webm"
         setIsOpen={() => setIsOpen(false)}
       />{" "}
     </>

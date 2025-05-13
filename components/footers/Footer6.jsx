@@ -22,14 +22,14 @@ export default function Footer6() {
                         <Link href={`/`} style={{ width: 140 }}>
                           <Image
                             className="dark:d-none"
-                            alt="Lexend"
+                            alt="Sendbix"
                             src="/assets/images/common/logo-new-light.svg"
                             width={128}
                             height={34}
                           />
                           <Image
                             className="d-none dark:d-block"
-                            alt="Lexend"
+                            alt="Sendbix"
                             src="/assets/images/common/logo-new-dark.svg"
                             width={128}
                             height={34}
@@ -65,7 +65,7 @@ export default function Footer6() {
                 </div>
               </div>
               <div className="uc-footer-bottom panel vstack md:hstack gap-2 justify-between items-center text-center pt-4 lg:pt-6 border-top dark:text-white">
-                <p>Lexend © {new Date().getFullYear()}, All rights reserved.</p>
+                <p>Sendbix © {new Date().getFullYear()}, All rights reserved.</p>
                 <ul className="nav-x gap-1">
                   <li>
                     <Link href={`/page-privacy`}>Privacy policy</Link>

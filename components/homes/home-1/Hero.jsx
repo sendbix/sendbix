@@ -216,7 +216,7 @@ export default function Hero() {
                   <figure className="featured-image m-0 rounded ratio ratio-16x9 lg:rounded-2 overflow-hidden">
                     <Image
                       className="media-cover image"
-                      alt="Lexend"
+                      alt="Sendbix"
                       src="/assets/images/template/home-01-hero-cover.webp"
                       width="1280"
                       height="719"
@@ -249,7 +249,7 @@ export default function Hero() {
 
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/lexend_vid.webm"
+        src="/assets/images/media/Sendbix_vid.webm"
         setIsOpen={() => setOpen(false)}
       />
     </>

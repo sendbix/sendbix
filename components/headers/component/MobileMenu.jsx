@@ -89,7 +89,7 @@ export default function MobileMenu() {
             >
               <Image
                 className="w-32px"
-                alt="Lexend"
+                alt="Sendbix"
                 src="/assets/images/common/logo-mark.svg"
                 width="34"
                 height="34"

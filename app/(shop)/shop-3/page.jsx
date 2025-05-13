@@ -5,9 +5,9 @@ import Breadcumb from "@/components/shop/Breadcumb";
 import Shop3 from "@/components/shop/Shop3";
 export const metadata = {
   title:
-    "Shop 3 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Shop 3 || Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function ShopPage3() {
   return (

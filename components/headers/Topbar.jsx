@@ -14,10 +14,10 @@ export default function Topbar() {
         data-uc-close=""
       />
       <p>
-        The Lexend AI automation guide is here.{" "}
+        The Sendbix AI automation guide is here.{" "}
         <br className="d-block lg:d-none" />
         <a
-          href="https://themeforest.net/item/lexend-software-saas-startup-nextjs-template/54003483/"
+          href="https://themeforest.net/item/Sendbix-software-saas-startup-nextjs-template/54003483/"
           className="uc-link text-tertiary dark:text-primary border-bottom"
           target="_blank"
           rel="nofollow"

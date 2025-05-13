@@ -5,9 +5,9 @@ import Breadcumb from "@/components/otherPages/Breadcumb";
 import Privacy from "@/components/otherPages/Privacy";
 export const metadata = {
   title:
-    "Privacy || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Privacy || Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sendbix - Full-featured, professional-looking software, saas and startup nextjs template.",
 };
 export default function PrivacyPage() {
   return (
