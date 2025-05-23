@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header7 from "@/components/headers/Header7";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer7 from "@/components/footers/Footer7";
 import About from "@/components/innerpages/About";
 import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
@@ -18,37 +18,41 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
-      <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
-        <div id="wrapper" className="wrap">
-          <About />
-          <div
-            id="clients_brands"
-            className="clients-brands section panel overflow-hidden"
-          >
-            <div className="section-outer panel pb-6 xl:pb-9">
-              <div className="container max-w-xl">
-                <div className="section-inner panel">
-                  <div
-                    className="block-panel panel"
-                    data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
-                  >
-                    <div className="element-brands max-w-950px m-auto text-gray-900 dark:text-white">
-                      <Brands />
+      <div className="theme-4">
+        <div className="page-wrapper">
+          <div className="bp-xs bp-sm bp-md bp-lg dom-ready bp-xxl-max bp-xl uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-tertiary-800 dark:text-tertiary-200 overflow-x-hidden disable-cursor">
+            <Header7 />
+            <div id="wrapper" className="wrap">
+              <About />
+              <div
+                id="clients_brands"
+                className="clients-brands section panel overflow-hidden"
+              >
+                <div className="section-outer panel pb-6 xl:pb-9">
+                  <div className="container max-w-xl">
+                    <div className="section-inner panel">
+                      <div
+                        className="block-panel panel"
+                        data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: 250;"
+                      >
+                        <div className="element-brands max-w-950px m-auto text-gray-900 dark:text-white">
+                          <Brands />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <About2 />
+              <AboutValues />
+              <Feedback />
+              <Timeline />
+              <Team />
+              <Cta />
             </div>
-          </div>
-          <About2 />
-          <AboutValues />
-          <Feedback />
-          <Timeline />
-          <Team />
-          <Cta />
+             <Footer7 />
+          </div>{" "}
         </div>
-        <Footer2 />
       </div>
     </>
   );

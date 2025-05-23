@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="position-absolute top-0 start-0 end-0 h-screen blend-difference opacity-20">
           <video
             data-uc-cover=""
-            src="/assets/images/media/Sendbix-home-8.webm"
+            src="/assets/images/media/sendbix-home-8.webm"
           />
         </div>
         <div className="container">
