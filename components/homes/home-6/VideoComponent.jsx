@@ -23,11 +23,11 @@ export default function VideoComponent() {
           <div className="container xl:max-w-xl">
             <div className="panel overflow-hidden ratio ratio-16x9 rounded-2 lg:rounded-3 border border-2 border-white dark:border-gray-700">
               <video
-                src="/assets/images/media/Sendbix_vid_home-6.webm"
+                src="/assets/images/media/sendbix_vid_home-6.webm"
                 preload="none"
                 loop
                 autoPlay
-                poster="/assets/images/media/Sendbix_vid_home-6.jpg"
+                poster="/assets/images/media/sendbix_vid_home-6.jpg"
                 muted
                 playsInline
                 data-uc-cover
@@ -47,7 +47,7 @@ export default function VideoComponent() {
       </div>
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/Sendbix_vid_home-6.webm"
+        src="/assets/images/media/senbix_vid_home-6.webm"
         setIsOpen={() => setOpen(false)}
       />
     </>

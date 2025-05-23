@@ -249,7 +249,7 @@ export default function Hero() {
 
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/Sendbix_vid.webm"
+        src="/assets/images/media/sendbix_vid.webm"
         setIsOpen={() => setOpen(false)}
       />
     </>

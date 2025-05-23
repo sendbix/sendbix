@@ -517,7 +517,7 @@ export default function Header6({ staticPosition = false }) {
       </header>{" "}
       <ModalVideo
         isOpen={isOpen}
-        src="/assets/images/media/Sendbix_vid.webm"
+        src="/assets/images/media/sendbix_vid.webm"
         setIsOpen={() => setIsOpen(false)}
       />{" "}
     </>
