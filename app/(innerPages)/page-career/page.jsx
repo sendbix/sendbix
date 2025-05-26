@@ -1,6 +1,6 @@
-import Header2 from "@/components/headers/Header2";
+import Header1 from "@/components/headers/Header1";
 
-import Footer2 from "@/components/footers/Footer2";
+import Footer1 from "@/components/footers/Footer1";
 import CareerHero from "@/components/innerpages/CareerHero";
 import CareerBenefits from "@/components/innerpages/CareerBenefits";
 import CareerOpenings from "@/components/innerpages/CareerOpenings";
@@ -17,7 +17,7 @@ export default function CareerPage() {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
+        <Header1 />
         <div id="wrapper" className="wrap">
           <CareerHero />
           <CareerBenefits />
@@ -26,7 +26,7 @@ export default function CareerPage() {
           <Brands />
           <Blogs />
         </div>
-        <Footer2 />
+        <Footer1 />
       </div>
     </>
   );
