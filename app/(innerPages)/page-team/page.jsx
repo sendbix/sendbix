@@ -1,4 +1,4 @@
-import Footer2 from "@/components/footers/Footer2";
+import Footer1 from "@/components/footers/Footer1";
 import Header4 from "@/components/headers/Header4";
 import Breadcumb from "@/components/innerpages/Breadcumb";
 import Cta2 from "@/components/innerpages/Cta2";
@@ -22,7 +22,7 @@ export default function TeamPage() {
           <Cta2 />
         </div>
 
-        <Footer2 />
+        <Footer1 />
       </div>
     </>
   );

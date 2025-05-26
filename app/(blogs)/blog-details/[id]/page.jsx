@@ -1,4 +1,4 @@
-import Header2 from "@/components/headers/Header2";
+import Header1 from "@/components/headers/Header1";
 import Newsletter from "@/components/blog/Newsletter";
 import Footer1 from "@/components/footers/Footer1";
 import BlogDetails1 from "@/components/blog/BlogDetails1";
@@ -16,7 +16,7 @@ export default async function BlogDetailsPage1(props) {
   return (
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
-        <Header2 />
+        <Header1 />
         <div id="wrapper" className="wrap">
           <BlogDetails1 blogItem={blogItem} />
           <Newsletter />

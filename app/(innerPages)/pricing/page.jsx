@@ -1,5 +1,5 @@
-import Footer7 from "@/components/footers/Footer7";
-import Header7 from "@/components/headers/Header7";
+import Footer7 from "@/components/footers/Footer1";
+import Header7 from "@/components/headers/Header1";
 import Topbar from "@/components/headers/Topbar";
 
 import Faqs from "@/components/homes/home-7/Faqs";

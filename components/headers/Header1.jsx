@@ -1,13 +1,13 @@
 "use client";
-import Nav from "./component/Nav";
-import Link from "next/link";
-import Image from "next/image";
 import { openMobileMenu } from "@/utlis/toggleMobileMenu";
-import { openContactModal } from "@/utlis/toggleContactModal";
-import LanguageSelect2 from "../common/LanguageSelect2";
-import { useEffect, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import ProductPages from "./ProductPages";
+import Solutions from "./Solutions";
+import { categories } from "@/data/menu";
 
-export default function Header1() {
+export default function Header7() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [scrollingUp, setScrollingUp] = useState(false);
 
@@ -27,94 +27,223 @@ export default function Header1() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [prevScrollPos]);
-
   return (
     <header
-      style={{ "--uc-nav-height": "80px" }}
-      className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-dark uc-sticky  ${
+      className={`uc-header header-eight uc-navbar-sticky-wrap z-999 uc-dark uc-sticky  ${
         scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
       }`}
       data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
+      style={{}}
     >
       <nav
-        className={`uc-navbar-container uc-navbar-float ft-tertiary z-1   ${
-          scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
-        } `}
+        className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 uc-navbar-transparent`}
         data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;"
         style={{ transform: "translateY(0px)", opacity: 1 }}
       >
-        <div className="container max-w-xl">
-          <div
-            className="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white"
-            data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;"
-          >
-            <div className="uc-navbar-left">
-              <div className="uc-logo text-dark dark:text-white">
-                <Link
-                  className="panel text-none"
-                  href={`/`}
-                  style={{ width: 140 }}
-                >
-                  <Image
-                    className="dark:d-none"
-                    alt="Sendbix"
-                    src="/assets/images/common/logo-light.svg"
-                    width="117"
-                    height="40"
-                  />
-                  <Image
-                    className="d-none dark:d-block"
-                    alt="Sendbix"
-                    src="/assets/images/common/logo-dark.svg"
-                    width="117"
-                    height="40"
-                  />
-                </Link>
+        <div className="uc-navbar-main" style={{ "--uc-nav-height": "80px" }}>
+          <div className="container">
+            <div
+              className="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white px-1 lg:px-2 bg-white dark:bg-tertiary-600 bg-opacity-90 rounded-2 mt-2 shadow-xs"
+              data-uc-navbar=" animation: uc-animation-slide-top-small; duration: 150;"
+            >
+              <div className="uc-navbar-left">
+                <div className="uc-logo ltr:ms-1 rtl:me-1">
+                  <Link
+                    className="panel text-none"
+                    href={`/`}
+                    style={{ width: 140 }}
+                  >
+                    <Image
+                      className="dark:d-none"
+                      alt="Sendbix"
+                      src="/assets/images/common/logo-8-light.svg"
+                      width={148}
+                      height={39}
+                    />
+                    <Image
+                      className="d-none dark:d-block"
+                      alt="Sendbix"
+                      src="/assets/images/common/logo-8-dark.svg"
+                      width={148}
+                      height={39}
+                    />
+                  </Link>
+                </div>
               </div>
-              <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
-                <Nav />
-              </ul>
-            </div>
-            <div className="uc-navbar-right">
-              <div className="d-none xl:d-block">
-                <a
-                  className="text-none fw-medium"
-                  onClick={openContactModal}
-                  data-uc-toggle=""
-                  role="button"
+              <div className="uc-navbar-center  ">
+                <ul className="uc-navbar-nav fs-5 gap-3 lg:gap-4 d-none lg:d-flex">
+                  <li className="has-dd-menu">
+                    <a href="#" role="button" aria-haspopup="true">
+                      Products{" "}
+                      <span
+                        data-uc-navbar-parent-icon=""
+                        className="uc-icon uc-navbar-parent-icon"
+                      >
+                        <svg width={12} height={12} viewBox="0 0 12 12">
+                          <polyline
+                            fill="none"
+                            stroke="#000"
+                            strokeWidth="1.1"
+                            points="1 3.5 6 8.5 11 3.5"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+                    <div
+                      className="uc-dropbar uc-navbar-dropdown uc-dropbar-top ft-primary text-unset fs-6 fw-normal hide-scrollbar p-0 rounded-2 overflow-hidden shadow-xl bg-white dark:bg-tertiary-600 dark:text-white uc-drop uc-open"
+                      data-uc-drop=" offset: 8; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; animate-out: uc-animation-slide-top-small; duration: 150;"
+                      style={{
+                        width: "100%",
+                        maxWidth: 1452,
+                      }}
+                    >
+                      <div className="uc-dropbar-content p-3 lg:p-6">
+                        <div className="container container-full">
+                          <div className="row child-cols-4 gx-6">
+                            <ProductPages />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="uc-dropbar-footer p-2 xl:p-4 xl:px-6 bg-gray-25 dark:bg-opacity-10 dark:text-white">
+                        <ul className="nav-x gap-4 fs-8">
+                          <li>
+                            <a href="#">
+                              <i className="fs-8 unicon-api" />
+                              <span className="border-bottom hover:border-primary duration-150">
+                                Explore Apps
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="fs-8 unicon-airplay" />
+                              <span className="border-bottom hover:border-primary duration-150">
+                                AI Solutions
+                              </span>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="fs-8 unicon-cloud-lightning" />
+                              <span className="border-bottom hover:border-primary duration-150">
+                                Join Sendbix Early Access
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="has-dd-menu">
+                    <a href="#" role="button" aria-haspopup="true">
+                      Solutions{" "}
+                      <span
+                        data-uc-navbar-parent-icon=""
+                        className="uc-icon uc-navbar-parent-icon"
+                      >
+                        <svg width={12} height={12} viewBox="0 0 12 12">
+                          <polyline
+                            fill="none"
+                            stroke="#000"
+                            strokeWidth="1.1"
+                            points="1 3.5 6 8.5 11 3.5"
+                          />
+                        </svg>
+                      </span>
+                    </a>
+                    <div
+                      className="uc-dropbar uc-navbar-dropdown uc-dropbar-top ft-primary text-unset fs-6 fw-normal hide-scrollbar p-0 rounded-2 overflow-hidden shadow-xl bg-white dark:bg-tertiary-600 dark:text-white uc-drop"
+                      data-uc-drop=" offset: 8; boundary: !.uc-navbar; stretch: x; animation: uc-animation-slide-top-small; animate-out: uc-animation-slide-top-small; duration: 150;"
+                      style={{
+                        width: "100%",
+                        maxWidth: 1452,
+                      }}
+                    >
+                      <div className="uc-dropbar-content">
+                        <div className="container container-full">
+                          <div className="uc-dropbar-inner p-2">
+                            <div className="row col-match justify-between">
+                              <div className="col-8">
+                                <div className="panel vstack gap-4 p-4">
+                                  <div className="vstack gap-narrow flex-none">
+                                    <h5 className="h5 xl:h4 m-0">
+                                      Workflow quick-start automation guide
+                                    </h5>
+                                    <p className="fs-7 opacity-60">
+                                      How Sendbix can help you automate your work
+                                    </p>
+                                  </div>
+                                  <div className="row child-cols-4 gx-4 col-match justify-between">
+                                    <Solutions />
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="col-4">
+                                <div className="panel vstack gap-4 p-4 bg-gray-25 dark:bg-opacity-10 rounded-default">
+                                  {categories.map((category, index) => (
+                                    <div
+                                      key={index}
+                                      className="panel category-section"
+                                    >
+                                      <h5 className="h6">{category.title}</h5>
+                                      <ul className="uc-nav uc-navbar-dropdown-nav fs-7 fw-normal row child-cols-12">
+                                        {category.links.map(
+                                          (link, linkIndex) => (
+                                            <li key={linkIndex}>
+                                              {link.href === "#" ? (
+                                                <a href={link.href}>
+                                                  {link.text}
+                                                </a>
+                                              ) : (
+                                                <Link href={link.href}>
+                                                  {link.text}
+                                                </Link>
+                                              )}
+                                            </li>
+                                          )
+                                        )}
+                                      </ul>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <Link href={`/blog`}>Insights</Link>
+                  </li>
+                  <li>
+                    <Link href={`/pricing`}>Pricing</Link>
+                  </li>
+                  <li>
+                    <Link href={`/about`}>About</Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="uc-navbar-right">
+                <Link
+                  className="uc-link fs-5 text-dark dark:text-white"
+                  href={`/sign-in`}
                 >
-                  <span>Request a demo</span>
+                  Log in
+                </Link>
+                <Link
+                  className="btn btn-md btn-tertiary dark:bg-white dark:text-dark border fs-5 lg:px-3 d-none lg:d-inline-flex shadow-xs"
+                  href={`/sign-up`}
+                >
+                  Sign up
+                </Link>
+                <a
+                  className="btn btn-md btn-tertiary w-48px h-48px d-inline-flex lg:d-none"
+                  onClick={openMobileMenu}
+                >
+                  <i className="icon icon-2 unicon-menu" />
                 </a>
               </div>
-              <div className="d-none lg:d-block">
-                <Link className="text-none fw-medium" href={`/sign-in`}>
-                  <span>Log in</span>
-                </Link>
-              </div>
-              <Link
-                className="btn btn-sm btn-primary text-white text-none d-none lg:d-inline-flex"
-                href={`/page-pricing`}
-              >
-                Start free trial
-              </Link>
-              <LanguageSelect2 />
-              <a
-                className="d-block lg:d-none uc-icon uc-navbar-toggle-icon"
-                onClick={openMobileMenu}
-              >
-                <svg width={20} height={20} viewBox="0 0 20 20">
-                  <style
-                    dangerouslySetInnerHTML={{
-                      __html:
-                        '.uc-navbar-toggle-icon svg>[class*="line-"]{transition:0.2s ease-in-out;transition-property:transform, opacity;transform-origin:center;opacity:1}.uc-navbar-toggle-icon svg>.line-3{opacity:0}.uc-navbar-toggle-animate[aria-expanded="true"] svg>.line-3{opacity:1}.uc-navbar-toggle-animate[aria-expanded="true"] svg>.line-2{transform:rotate(45deg)}.uc-navbar-toggle-animate[aria-expanded="true"] svg>.line-3{transform:rotate(-45deg)}.uc-navbar-toggle-animate[aria-expanded="true"] svg>.line-1,.uc-navbar-toggle-animate[aria-expanded="true"] svg>.line-4{opacity:0}.uc-navbar-toggle-animate[aria-expanded="true"] svg>.line-1{transform:translateY(6px) scaleX(0)}.uc-navbar-toggle-animate[aria-expanded="true"] svg>.line-4{transform:translateY(-6px) scaleX(0)}',
-                    }}
-                  />
-                  <rect className="line-1" y={3} width={20} height={2} />
-                  <rect className="line-2" y={9} width={20} height={2} />
-                  <rect className="line-3" y={9} width={20} height={2} />
-                  <rect className="line-4" y={15} width={20} height={2} />
-                </svg>
-              </a>
             </div>
           </div>
         </div>

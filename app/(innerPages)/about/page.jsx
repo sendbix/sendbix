@@ -1,6 +1,6 @@
-import Header7 from "@/components/headers/Header7";
+import Header7 from "@/components/headers/Header1";
 
-import Footer7 from "@/components/footers/Footer7";
+import Footer7 from "@/components/footers/Footer1";
 import About from "@/components/innerpages/About";
 import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
