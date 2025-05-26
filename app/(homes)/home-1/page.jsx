@@ -1,4 +1,4 @@
-import Footer7 from "@/components/footers/Footer1";
+import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Blogs from "@/components/homes/home-8/Blogs";
 import Brands from "@/components/homes/home-8/Brands";
@@ -36,7 +36,7 @@ export default function page() {
               <Blogs />
               <Cta />
             </div>
-            <Footer7 />
+            <Footer1 />
           </div>{" "}
         </div>
       </div>

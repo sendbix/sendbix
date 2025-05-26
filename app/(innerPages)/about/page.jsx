@@ -1,6 +1,6 @@
-import Header7 from "@/components/headers/Header1";
+import Header1 from "@/components/headers/Header1";
 
-import Footer7 from "@/components/footers/Footer1";
+import Footer1 from "@/components/footers/Footer1";
 import About from "@/components/innerpages/About";
 import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
@@ -21,7 +21,7 @@ export default function AboutPage() {
       <div className="theme-4">
         <div className="page-wrapper">
           <div className="bp-xs bp-sm bp-md bp-lg dom-ready bp-xxl-max bp-xl uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-tertiary-800 dark:text-tertiary-200 overflow-x-hidden disable-cursor">
-            <Header7 />
+            <Header1 />
             <div id="wrapper" className="wrap">
               <About />
               <div
@@ -50,7 +50,7 @@ export default function AboutPage() {
               <Team />
               <Cta />
             </div>
-             <Footer7 />
+             <Footer1 />
           </div>{" "}
         </div>
       </div>

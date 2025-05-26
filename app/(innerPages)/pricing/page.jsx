@@ -1,5 +1,5 @@
-import Footer7 from "@/components/footers/Footer1";
-import Header7 from "@/components/headers/Header1";
+import Footer1 from "@/components/footers/Footer1";
+import Header1 from "@/components/headers/Header1";
 import Topbar from "@/components/headers/Topbar";
 
 import Faqs from "@/components/homes/home-7/Faqs";
@@ -20,14 +20,14 @@ export default function page() {
       <div className="theme-4 ">
         <div className="bp-xs page-wrapper bp-sm bp-md bp-lg bp-xl dom-ready bp-xxl-max uni-body panel uni-body panel bg-white text-gray-900 dark:bg-black dark:text-gray-200 overflow-x-hidden disable-cursor">
           <Topbar />
-          <Header7 />
+          <Header1 />
           <div id="wrapper" className="wrap">
             <Pricing2 />
             <PricingCompare />
             <Testimonials />
             <Faqs ctaParentClass="section-outer panel pb-4 lg:pb-6 xl:pb-10" />
           </div>
-          <Footer7 />
+          <Footer1 />
         </div>
       </div>
     </>

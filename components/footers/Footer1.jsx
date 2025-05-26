@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { footerLinks6 } from "@/data/footer";
 
-export default function Footer7() {
+export default function Footer1() {
   return (
     <footer
       id="uc-footer"
