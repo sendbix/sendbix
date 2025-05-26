@@ -7,7 +7,7 @@ import ProductPages from "./ProductPages";
 import Solutions from "./Solutions";
 import { categories } from "@/data/menu";
 
-export default function Header7() {
+export default function Header1() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [scrollingUp, setScrollingUp] = useState(false);
 

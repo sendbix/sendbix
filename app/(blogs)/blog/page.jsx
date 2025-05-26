@@ -1,6 +1,6 @@
-import Header7 from "@/components/headers/Header1";
+import Header1 from "@/components/headers/Header1";
 
-import Footer7 from "@/components/footers/Footer1";
+import Footer1 from "@/components/footers/Footer1";
 import Newsletter from "@/components/blog/Newsletter";
 import Blogs1 from "@/components/blog/Blogs1";
 export const metadata = {
@@ -15,12 +15,12 @@ export default function BlogPage1() {
       <div className="theme-4">
         <div className="page-wrapper">
           <div className="bp-xs bp-sm bp-md bp-lg dom-ready bp-xxl-max bp-xl uni-body panel uni-body panel bg-white text-tertiary-900 dark:bg-tertiary-800 dark:text-tertiary-200 overflow-x-hidden disable-cursor">
-            <Header7 />
+            <Header1 />
             <div id="wrapper" className="wrap">
               <Blogs1 />
               <Newsletter />
             </div>
-            <Footer7 />
+            <Footer1 />
           </div>{" "}
         </div>
       </div>
